@@ -3,6 +3,8 @@
 :root{
     --primary-color:  
     #6366F1;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280;
 }
 
 body {
@@ -10,7 +12,11 @@ body {
     font-family: 'Jost', sans-serif;
     font-size: 1.2rem;
     font-weight: 590;
+    margin:0px;
 }
+
+
+
 
 
 
@@ -26,7 +32,7 @@ body {
 .link {
     box-sizing: border-box;
     text-decoration: none;
-    /* padding: 0.5rem 1rem; */
+    padding: 0.5rem 1rem;
 }
 
 
@@ -52,6 +58,9 @@ body {
     margin: 0.5rem 0.5rem 0.5rem 0rem;
     font-size: 0.9rem;
 }
+
+
+
 
 
 
@@ -119,6 +128,9 @@ body {
 
 
 
+
+
+
 .hero {
     padding: 2rem;
     padding-top: 5rem;
@@ -156,6 +168,122 @@ color: var(--dark-gray);
 .hero .hero-heading1 .heading-inverted1 {
     color: var(--primary-color);
 }
+
+
+
+
+
+
+
+
+
+.section {
+    padding: 0rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--off-white);
+    padding:0.1rem;
+}
+
+#text{
+    font-size: 1.7rem;
+    text-align:centre;
+}
+#text1{
+    text-align:center;
+    font-weight: 550;
+}
+#text2{
+    padding-left: 16rem;
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+
+.inline{
+    padding-left: 12.5rem;
+    display:inline-flex;
+} 
+
+
+.ow .inline
+{
+    padding-left: 12.5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2.2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    
+    
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+/* .footer .footer-header .span{
+    font-weight: bold;
+    font-size: large;
+    margin: 50rem;
+} */
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+
+
+
+
+
+
+
+
+.showcase-list {
+    /*.projects*/
+    /* padding: 1rem; */
+    padding: 0rem 0rem;
+}
+
+
+
+
+
+
+.showcase-blog {
+    /*blog*/
+    padding-bottom: 6rem;
+}
+
+
+
 
 
 
