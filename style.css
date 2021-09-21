@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+
+:root{
+    --primary-color:  
+    #6366F1;
+}
+
+body {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 590;
+}
+
+
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    font-weight: 590;
+    font-size: 1.03rem;
+}
+
+
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    /* padding: 0.5rem 1rem; */
+}
+
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 110px;
+    max-height: 40px; 
+    margin: 0.5rem 0.5rem 0.5rem 0rem; 
+    font-size: 0.9rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color);
+    display: block;
+    max-width: 110px;
+    max-height: 40px;
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
+    font-size: 0.9rem;
+}
+
+
+
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 6rem;
+    /* border-bottom-left-radius: 3rem; */
+    /* margin: 0rem 0rem 0rem 0rem; */
+    margin-left: 18rem;
+    margin-right: 18rem;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    transform: scaleX(0.9);
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size:1.6rem;
+    padding: 0rem;
+    color:white;
+    margin:0rem;
+    /* transform: scaleX(0); */
+}
+
+.navigation .nav-brand .nav-brand-span{
+    color: darkgray;
+    
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+    padding:4px;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    padding:4px;
+}
+
+
+
+
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+
+}
+
+.hero .hero-img {
+    max-width: 
+    13%;
+    width: 350px;
+    display: block;
+    /* margin:auto; */
+    margin-top: -4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 0.7rem;
+    color: var(--dark-gray);
+    
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.hero .hero-heading1 {
+text-align: center;
+margin-top: -0.6rem;
+color: var(--dark-gray);
+}
+
+.hero .hero-heading1 .heading-inverted1 {
+    color: var(--primary-color);
+}
+
+
+
+
