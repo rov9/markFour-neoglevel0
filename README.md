@@ -4,4 +4,4 @@ This is my portfolio.It has projects namely check if your birthday is a pallindr
 User Guide-
 1.Click on Projects for project guide.
 2.Click on blogs to toggle screens to blogs.
-Link - https://saurabhd-webdev-projects-i.netlify.app/
+Link - https://saurabh-web-devprojects.netlify.app/
